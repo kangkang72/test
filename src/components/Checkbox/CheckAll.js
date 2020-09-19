@@ -13,6 +13,7 @@ class CheckAll extends Component {
     this.state = {
       checkAll: props.checked,
       checkedList: props.checked ? this._plainGroups : {},
+      ha:121
     };
     this._trigger = props.groups.reduce((prev, next) => prev + next.options.length, 0);
   }
